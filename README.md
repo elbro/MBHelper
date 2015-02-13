@@ -8,6 +8,8 @@ Employing this technique unassisted is generally a time consuming task, one is r
 
 This project comes into play by alleviating the need to manually search for these discrepancies, by automatically scanning bookmaker feeds and displaying the details of available bets ordered by a mathematically calculated arbitrage rating. If this rating is above 100%, then a guaranteed profit can be made simply by betting certain amounts on the displayed outcome. A rating below this margin however is still valuable in order to take advantage of sign up bonuses and promotions offered by various bookmakers, with large profits available depending on the size of the bonuses available.
 
+http://i.imgur.com/kdnRBb3.png - Web front-end
+
 The odds grabbing service can be extended to work with any bookmaker's odds feed once the feed has been discovered (these are not usually advertised publicly).
 
 <b>Operation</b>
