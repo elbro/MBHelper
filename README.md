@@ -1,6 +1,6 @@
 # MBHelper
 
-Match Betting Helper is a piece of software intended to help users practice a concept known as Match Betting (see http://en.wikipedia.org/wiki/Matched_betting). 
+Match Betting Helper is a web front-end project intended to help users practice a concept known as Match Betting (see http://en.wikipedia.org/wiki/Matched_betting). 
 
 While traditional betting techniques invariably rely on chance and are subject to the pitfalls of variance, by leveraging the ability to lay one’s own bet on an exchange, this technique employs a simple mathematical equation to ensure a profit is made independent of the bet outcome. Thus, match betting is generally considered to be a risk-free approach to betting and once understood can be used to generate a high return for the required time investment. 
 
