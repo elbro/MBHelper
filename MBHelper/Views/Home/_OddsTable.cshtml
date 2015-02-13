@@ -1,0 +1,42 @@
+﻿@using System.Linq;
+@model List<MBHelper.Models.ArbitrageViewModel>
+
+<div id="oddsHolder">
+    <table id="oddsData" class="display table-hover" style="width:100%">
+        <thead>
+            <tr>
+                <th>Date</th>
+                <th style="cursor:initial"></th>
+                <th>Details</th>
+                <th title="Selection to back and lay">Bet</th>
+                <th>Type</th>                        
+                <th title="Arbitrage profitability percentage">Rating (%)</th>
+                <th>Bookmaker</th>
+                <th title="Back odds">Back</th>
+                <th>Exchange</th>
+                <th title="Lay odds">Lay</th>
+                <th title="Amount available to Lay on the exchange">Avail</th>
+                <th title="Minutes since back odds last updated"><i class="icon-time"></i></th>
+            </tr>
+        </thead>
+        <tbody>
+            @foreach (var arb in Model)
+            {                
+                <tr>
+                    <td>@arb.Date.ToString("dd/MM/yyyy HH:mm:ss")</td>
+                    <td><img class="sportIcon" src="@Url.Content("~/Content/Images/"+ arb.Sport.ToLower() +".png")" title="@arb.Sport" alt="@arb.Sport"></td>
+                    <td style="text-align:left; width: 150px" title="@arb.Details">@arb.Name</td>
+                    <td>@arb.Bet</td>
+                    <td>@arb.Type</td>            
+                    <td style="text-align:center">@arb.Rating.ToString("N2")</td>
+                    <td style="text-align:center">@arb.Bookie</td>
+                    <td title="@arb.BackAge minutes since last updated"style="text-align:center">@arb.BackOdds</td>
+                    <td class="exchange" style="text-align:center">@arb.Exchange <a href="@arb.ExchangeUrl" target="_blank"><i class="icon-share"></i></a></td>
+                    <td title="@arb.LayAge minutes since last updated" style="text-align:center">@arb.LayOdds</td>            
+                    <td title="@arb.LayAge minutes since last updated">£@arb.Liquidity</td>
+                    <td>@arb.BackAge.ToString("N1")</td>
+                </tr>
+            }     
+        </tbody>
+    </table>
+</div>

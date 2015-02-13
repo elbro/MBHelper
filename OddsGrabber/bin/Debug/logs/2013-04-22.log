@@ -1,0 +1,40 @@
+2013-04-22 10:43:22.4516 ERROR An error occurred while getting provider information from the database. This can be caused by Entity Framework using an incorrect connection string. Check the inner exceptions for details and ensure that the connection string is correct.
+2013-04-22 10:43:22.4916 TRACE    at System.Data.Entity.ModelConfiguration.Utilities.DbProviderServicesExtensions.GetProviderManifestTokenChecked(DbProviderServices providerServices, DbConnection connection)
+   at System.Data.Entity.ModelConfiguration.Utilities.DbConnectionExtensions.GetProviderInfo(DbConnection connection, DbProviderManifest& providerManifest)
+   at System.Data.Entity.DbModelBuilder.Build(DbConnection providerConnection)
+   at System.Data.Entity.Internal.LazyInternalContext.CreateModel(LazyInternalContext internalContext)
+   at System.Data.Entity.Internal.RetryLazy`2.GetValue(TInput input)
+   at System.Data.Entity.Internal.LazyInternalContext.InitializeContext()
+   at System.Data.Entity.Internal.InternalContext.Initialize()
+   at System.Data.Entity.Internal.InternalContext.GetEntitySetAndBaseTypeForType(Type entityType)
+   at System.Data.Entity.Internal.Linq.InternalSet`1.Initialize()
+   at System.Data.Entity.Internal.Linq.InternalSet`1.get_InternalContext()
+   at System.Data.Entity.Infrastructure.DbQuery`1.System.Linq.IQueryable.get_Provider()
+   at System.Linq.Queryable.Select[TSource,TResult](IQueryable`1 source, Expression`1 selector)
+   at OddsGrabber.Program.IngestBetfairMarkets() in c:\Users\***REMOVED***\Dropbox\Uni\Project\MBHelper\OddsGrabber\Program.cs:line 93
+   at OddsGrabber.Program.Main() in c:\Users\***REMOVED***\Dropbox\Uni\Project\MBHelper\OddsGrabber\Program.cs:line 43
+2013-04-22 10:43:22.4916 INFO Completed. Time elapsed: 00:01:28.8856075
+2013-04-22 13:26:38.0802 INFO 1074 Expired markets removed from database
+2013-04-22 13:26:38.0902 INFO 782 New markets added to database
+2013-04-22 13:26:38.0902 INFO 9 In-play markets skipped
+2013-04-22 13:26:38.0902 INFO Completed. Time elapsed: 02:41:06.8403101
+2013-04-22 14:24:43.2359 DEBUG GetMarketReq - FAILED: Response.Header.ErrorCode = EXCEEDED_THROTTLE
+2013-04-22 14:28:32.3872 INFO 4 Expired markets removed from database
+2013-04-22 14:28:32.3872 INFO 40 New markets added to database
+2013-04-22 14:28:32.3972 INFO 2 In-play markets skipped
+2013-04-22 14:28:32.3972 INFO Completed. Time elapsed: 00:08:01.4736355
+2013-04-22 15:13:55.4559 DEBUG GetMarketReq - FAILED: Response.Header.ErrorCode = EXCEEDED_THROTTLE
+2013-04-22 15:25:24.0223 INFO 0 Expired markets removed from database
+2013-04-22 15:25:24.0223 INFO 94 New markets added to database
+2013-04-22 15:25:24.0273 INFO 0 In-play markets skipped
+2013-04-22 15:25:24.0273 INFO Completed. Time elapsed: 00:17:30.6449061
+2013-04-22 15:37:18.2692 DEBUG GetMarketReq - FAILED: Response.Header.ErrorCode = EXCEEDED_THROTTLE
+2013-04-22 15:55:22.0802 INFO 1 Expired markets removed from database
+2013-04-22 15:55:22.0802 INFO 132 New markets added to database
+2013-04-22 15:55:22.0802 INFO 3 In-play markets skipped
+2013-04-22 15:55:22.0802 INFO Completed. Time elapsed: 00:26:13.9586653
+2013-04-22 16:12:22.3895 INFO 10 Expired markets removed from database
+2013-04-22 16:12:22.4035 INFO 6 New markets added to database
+2013-04-22 16:12:22.4035 INFO 0 In-play markets skipped
+2013-04-22 16:12:22.4035 INFO Completed. Time elapsed: 00:01:01.7553305
+2013-04-22 18:13:29.2964 DEBUG GetMarketReq - FAILED: Response.Header.ErrorCode = EXCEEDED_THROTTLE

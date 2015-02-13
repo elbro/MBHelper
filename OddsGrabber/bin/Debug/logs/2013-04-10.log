@@ -1,0 +1,10 @@
+2013-04-10 18:38:10.2500 ERROR Object reference not set to an instance of an object.
+2013-04-10 18:38:10.2500 TRACE    at MBHelper.Models.Market.LoadMarket(GetMarketResp& marketResp) in c:\Users\***REMOVED***\Dropbox\Uni\Project\MBHelper\MBHelper\Models\Market.cs:line 42
+   at OddsGrabber.Program.IngestBetfairMarkets() in c:\Users\***REMOVED***\Dropbox\Uni\Project\MBHelper\OddsGrabber\Program.cs:line 146
+   at OddsGrabber.Program.Main() in c:\Users\***REMOVED***\Dropbox\Uni\Project\MBHelper\OddsGrabber\Program.cs:line 41
+2013-04-10 18:38:10.2630 INFO Completed. Time elapsed: 00:00:07.5692558
+2013-04-10 18:49:13.5180 ERROR Object reference not set to an instance of an object.
+2013-04-10 18:49:13.5180 TRACE    at MBHelper.Models.Market.LoadMarket(GetMarketResp& marketResp) in c:\Users\***REMOVED***\Dropbox\Uni\Project\MBHelper\MBHelper\Models\Market.cs:line 42
+   at OddsGrabber.Program.IngestBetfairMarkets() in c:\Users\***REMOVED***\Dropbox\Uni\Project\MBHelper\OddsGrabber\Program.cs:line 146
+   at OddsGrabber.Program.Main() in c:\Users\***REMOVED***\Dropbox\Uni\Project\MBHelper\OddsGrabber\Program.cs:line 41
+2013-04-10 18:49:13.5320 INFO Completed. Time elapsed: 00:00:10.4239960

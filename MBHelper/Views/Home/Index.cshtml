@@ -1,0 +1,76 @@
+﻿@model List<MBHelper.Models.ArbitrageViewModel>
+@using System.Linq;   
+
+@{
+    ViewBag.Title = "MBHelper - Beta";
+}
+@section featured {
+    <section class="featured">
+        <div class="content-wrapper">
+            <hgroup class="title">
+                <h1>Odds Search</h1>
+                <h2>@ViewBag.Message</h2>
+            </hgroup>
+            <p>
+                Odds are displayed for testing purposes and may not be accurate.
+            </p>
+        </div>
+    </section>
+}   
+
+<br/>
+
+    
+<div id="filterContent" style="display: none">
+    <div class="filter pull-left">
+        <span>Match Rating:</span>
+            <input type="text" value="10.00 %" class="percent" id="txtMinRating">
+	        &nbsp;to&nbsp;
+            <input type="text" value="200.00 %" class="percent" id="txtMaxRating">           
+	    <br>
+	
+	    <span>Back Odds:</span>
+	        <input type="text" value="1.00" class=""  id="txtMinOdds">          
+	        &nbsp;to&nbsp;
+	        <input type="text" value="45.00" class="" id="txtMaxOdds">          
+	    <br>
+	
+	    <span title="Minimum available to bet at the exchange">Min. Liquidity:</span>
+	        <input type="text" value="£10.00" id="minLiquidity" />  
+        <br />
+
+        <span title="Betfair commission rate">Commission:</span>
+	        <input type="text" class="percent" value="5.00 %" id="betfairComm" />  
+        <br />  
+
+	    <span>Event Date:</span> <br />  @* //MouseWheel?  *@	           	             
+    </div>	
+</div>
+
+<div id="filter">
+    <button id="btnFilter"class="btn btn-info" data-toggle="button"><i class="icon-wrench icon-white"></i> Filter</button>
+
+    @Html.DropDownList("bookies", (IEnumerable<SelectListItem>)ViewBag.Bookies)
+    <button id="btnRefresh"class="btn btn-primary" data-loading-text="Loading..."><i class="icon-refresh icon-white"></i> Refresh</button>
+</div> 
+    
+
+<br/> <br/> <br />
+
+<div>
+    
+    <div id="spinner" style="display: none; height: 100px; text-align: center;">
+        <img id="subloaderimg" alt="Loading..." src="@Url.Content("~/Content/Images/ajax-loader.gif")" />
+    </div>
+
+    <div id="results">
+        @Html.Partial("_OddsTable", Model)
+    </div>
+</div>
+
+@section scripts
+{
+    
+}
+
+

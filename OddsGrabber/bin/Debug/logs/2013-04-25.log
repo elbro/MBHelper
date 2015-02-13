@@ -1,0 +1,25 @@
+2013-04-25 20:07:01.7055 ERROR LINQ to Entities does not recognize the method 'MBHelper.Models.Market LastOrDefault[Market](System.Linq.IQueryable`1[MBHelper.Models.Market], System.Linq.Expressions.Expression`1[System.Func`2[MBHelper.Models.Market,System.Boolean]])' method, and this method cannot be translated into a store expression.
+2013-04-25 20:07:01.7225 TRACE    at System.Data.Objects.ELinq.ExpressionConverter.MethodCallTranslator.DefaultTranslator.Translate(ExpressionConverter parent, MethodCallExpression call)
+   at System.Data.Objects.ELinq.ExpressionConverter.MethodCallTranslator.TypedTranslate(ExpressionConverter parent, MethodCallExpression linq)
+   at System.Data.Objects.ELinq.ExpressionConverter.TypedTranslator`1.Translate(ExpressionConverter parent, Expression linq)
+   at System.Data.Objects.ELinq.ExpressionConverter.TranslateExpression(Expression linq)
+   at System.Data.Objects.ELinq.ExpressionConverter.Convert()
+   at System.Data.Objects.ELinq.ELinqQueryState.GetExecutionPlan(Nullable`1 forMergeOption)
+   at System.Data.Objects.ObjectQuery`1.GetResults(Nullable`1 forMergeOption)
+   at System.Data.Objects.ObjectQuery`1.System.Collections.Generic.IEnumerable<T>.GetEnumerator()
+   at System.Linq.Enumerable.Single[TSource](IEnumerable`1 source)
+   at System.Data.Objects.ELinq.ObjectQueryProvider.<GetElementFunction>b__3[TResult](IEnumerable`1 sequence)
+   at System.Data.Objects.ELinq.ObjectQueryProvider.ExecuteSingle[TResult](IEnumerable`1 query, Expression queryRoot)
+   at System.Data.Objects.ELinq.ObjectQueryProvider.System.Linq.IQueryProvider.Execute[S](Expression expression)
+   at System.Data.Entity.Internal.Linq.DbQueryProvider.Execute[TResult](Expression expression)
+   at System.Linq.Queryable.LastOrDefault[TSource](IQueryable`1 source, Expression`1 predicate)
+   at OddsGrabber.Program.<IngestBetfairMarkets>b__e(Int32 id) in c:\Users\***REMOVED***\Dropbox\Uni\Project\MBHelper\OddsGrabber\Program.cs:line 105
+   at System.Linq.Enumerable.WhereSelectListIterator`2.MoveNext()
+   at System.Linq.Enumerable.WhereEnumerableIterator`1.MoveNext()
+   at OddsGrabber.Program.IngestBetfairMarkets() in c:\Users\***REMOVED***\Dropbox\Uni\Project\MBHelper\OddsGrabber\Program.cs:line 105
+   at OddsGrabber.Program.Main() in c:\Users\***REMOVED***\Dropbox\Uni\Project\MBHelper\OddsGrabber\Program.cs:line 43
+2013-04-25 20:07:01.7225 INFO Completed. Time elapsed: 00:00:38.0321366
+2013-04-25 20:24:32.7416 INFO 22 Expired markets removed from database
+2013-04-25 20:24:32.7476 INFO 46 New markets added to database
+2013-04-25 20:24:32.7476 INFO 2 In-play markets skipped
+2013-04-25 20:24:32.7476 INFO Completed. Time elapsed: 00:09:39.1873189

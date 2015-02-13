@@ -1,0 +1,8 @@
+2013-03-05 19:13:14.9239 INFO Completed. Time elapsed: 00:00:04.1187858
+2013-03-05 19:37:48.2321 DEBUG GetMarketReq - FAILED: Response.Header.ErrorCode = EXCEEDED_THROTTLE
+2013-03-05 21:32:21.0412 DEBUG GetMarketReq - FAILED: Response.Header.ErrorCode = EXCEEDED_THROTTLE
+2013-03-05 21:46:29.9268 DEBUG GetMarketReq - FAILED: Response.Header.ErrorCode = EXCEEDED_THROTTLE
+2013-03-05 22:19:46.8110 DEBUG GetMarketReq - FAILED: Response.Header.ErrorCode = EXCEEDED_THROTTLE
+2013-03-05 22:34:04.3810 INFO 0 Expired markets removed from database
+2013-03-05 22:34:04.3810 INFO 1027 New markets added to database
+2013-03-05 22:34:04.3810 INFO Completed. Time elapsed: 03:19:48.6474433

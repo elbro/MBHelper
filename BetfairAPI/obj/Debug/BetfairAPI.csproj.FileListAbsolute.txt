@@ -1,0 +1,13 @@
+F:\Apps\Projects\BetfairTutorial\BetfairAPI\bin\Debug\BetfairAPI.dll.config
+F:\Apps\Projects\BetfairTutorial\BetfairAPI\bin\Debug\BetfairAPI.dll
+F:\Apps\Projects\BetfairTutorial\BetfairAPI\bin\Debug\BetfairAPI.pdb
+F:\Apps\Projects\BetfairTutorial\BetfairAPI\obj\Debug\BetfairAPI.csprojResolveAssemblyReference.cache
+F:\Apps\Projects\BetfairTutorial\BetfairAPI\obj\Debug\BetfairAPI.dll
+F:\Apps\Projects\BetfairTutorial\BetfairAPI\obj\Debug\BetfairAPI.pdb
+C:\Users\***REMOVED***\Dropbox\Uni\Project\MBHelper\BetfairAPI\bin\Debug\BetfairAPI.dll.config
+C:\Users\***REMOVED***\Dropbox\Uni\Project\MBHelper\BetfairAPI\bin\Debug\BetfairAPI.dll
+C:\Users\***REMOVED***\Dropbox\Uni\Project\MBHelper\BetfairAPI\bin\Debug\BetfairAPI.pdb
+C:\Users\***REMOVED***\Dropbox\Uni\Project\MBHelper\BetfairAPI\obj\Debug\BetfairAPI.dll
+C:\Users\***REMOVED***\Dropbox\Uni\Project\MBHelper\BetfairAPI\obj\Debug\BetfairAPI.pdb
+C:\Users\***REMOVED***\Dropbox\Uni\Project\MBHelper\BetfairAPI\bin\Debug\Abbreviations.txt
+C:\Users\***REMOVED***\Dropbox\Uni\Project\MBHelper\BetfairAPI\obj\Debug\BetfairAPI.csprojResolveAssemblyReference.cache

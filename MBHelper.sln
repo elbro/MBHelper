@@ -1,0 +1,41 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio 2012
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "MBHelper", "MBHelper\MBHelper.csproj", "{30D8A845-AB9A-4632-AFBE-207E8EDFFC7B}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "MarketGrabber", "OddsGrabber\MarketGrabber.csproj", "{F49D635B-C16F-45AA-87BF-88B2F47D2248}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "BetfairAPI", "BetfairAPI\BetfairAPI.csproj", "{A7428629-A92D-49FA-9BFC-9DB0955A02F5}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "AutoUpdater", "AutoUpdater\AutoUpdater\AutoUpdater.csproj", "{E98B1810-B209-4864-8F19-E640D85B9CC9}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{30D8A845-AB9A-4632-AFBE-207E8EDFFC7B}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{30D8A845-AB9A-4632-AFBE-207E8EDFFC7B}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{30D8A845-AB9A-4632-AFBE-207E8EDFFC7B}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{30D8A845-AB9A-4632-AFBE-207E8EDFFC7B}.Release|Any CPU.Build.0 = Release|Any CPU
+		{F49D635B-C16F-45AA-87BF-88B2F47D2248}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{F49D635B-C16F-45AA-87BF-88B2F47D2248}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{F49D635B-C16F-45AA-87BF-88B2F47D2248}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{F49D635B-C16F-45AA-87BF-88B2F47D2248}.Release|Any CPU.Build.0 = Release|Any CPU
+		{A7428629-A92D-49FA-9BFC-9DB0955A02F5}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{A7428629-A92D-49FA-9BFC-9DB0955A02F5}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{A7428629-A92D-49FA-9BFC-9DB0955A02F5}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{A7428629-A92D-49FA-9BFC-9DB0955A02F5}.Release|Any CPU.Build.0 = Release|Any CPU
+		{E98B1810-B209-4864-8F19-E640D85B9CC9}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{E98B1810-B209-4864-8F19-E640D85B9CC9}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{E98B1810-B209-4864-8F19-E640D85B9CC9}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{E98B1810-B209-4864-8F19-E640D85B9CC9}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+	GlobalSection(Performance) = preSolution
+		HasPerformanceSessions = true
+	EndGlobalSection
+EndGlobal

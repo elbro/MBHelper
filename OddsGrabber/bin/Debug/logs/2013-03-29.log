@@ -1,0 +1,40 @@
+2013-03-29 16:46:59.7314 INFO 41 Expired markets removed from database
+2013-03-29 16:46:59.7414 INFO 18 New markets added to database
+2013-03-29 16:46:59.7414 INFO 0 In-play markets skipped
+2013-03-29 16:46:59.7414 INFO Completed. Time elapsed: 00:03:26.8508869
+2013-03-29 18:49:16.0066 ERROR The model backing the 'OddsContext' context has changed since the database was created. Consider using Code First Migrations to update the database (http://go.microsoft.com/fwlink/?LinkId=238269).
+2013-03-29 18:49:16.0156 TRACE    at System.Data.Entity.CreateDatabaseIfNotExists`1.InitializeDatabase(TContext context)
+   at System.Data.Entity.Internal.InternalContext.<>c__DisplayClass8.<PerformDatabaseInitialization>b__6()
+   at System.Data.Entity.Internal.InternalContext.PerformInitializationAction(Action action)
+   at System.Data.Entity.Internal.InternalContext.PerformDatabaseInitialization()
+   at System.Data.Entity.Internal.LazyInternalContext.<InitializeDatabase>b__4(InternalContext c)
+   at System.Data.Entity.Internal.RetryAction`1.PerformAction(TInput input)
+   at System.Data.Entity.Internal.LazyInternalContext.InitializeDatabaseAction(Action`1 action)
+   at System.Data.Entity.Internal.LazyInternalContext.InitializeDatabase()
+   at System.Data.Entity.Internal.InternalContext.Initialize()
+   at System.Data.Entity.Internal.InternalContext.GetEntitySetAndBaseTypeForType(Type entityType)
+   at System.Data.Entity.Internal.Linq.InternalSet`1.Initialize()
+   at System.Data.Entity.Internal.Linq.InternalSet`1.get_InternalContext()
+   at System.Data.Entity.Infrastructure.DbQuery`1.System.Linq.IQueryable.get_Provider()
+   at System.Linq.Queryable.Select[TSource,TResult](IQueryable`1 source, Expression`1 selector)
+   at OddsGrabber.Program.IngestBetfairMarkets() in c:\Users\***REMOVED***\Dropbox\Uni\Project\MBHelper\OddsGrabber\Program.cs:line 76
+   at OddsGrabber.Program.Main() in c:\Users\***REMOVED***\Dropbox\Uni\Project\MBHelper\OddsGrabber\Program.cs:line 41
+2013-03-29 18:49:16.0156 INFO Completed. Time elapsed: 00:00:04.0710136
+2013-03-29 18:50:38.1303 ERROR The model backing the 'OddsContext' context has changed since the database was created. Consider using Code First Migrations to update the database (http://go.microsoft.com/fwlink/?LinkId=238269).
+2013-03-29 18:50:38.1363 TRACE    at System.Data.Entity.CreateDatabaseIfNotExists`1.InitializeDatabase(TContext context)
+   at System.Data.Entity.Internal.InternalContext.<>c__DisplayClass8.<PerformDatabaseInitialization>b__6()
+   at System.Data.Entity.Internal.InternalContext.PerformInitializationAction(Action action)
+   at System.Data.Entity.Internal.InternalContext.PerformDatabaseInitialization()
+   at System.Data.Entity.Internal.LazyInternalContext.<InitializeDatabase>b__4(InternalContext c)
+   at System.Data.Entity.Internal.RetryAction`1.PerformAction(TInput input)
+   at System.Data.Entity.Internal.LazyInternalContext.InitializeDatabaseAction(Action`1 action)
+   at System.Data.Entity.Internal.LazyInternalContext.InitializeDatabase()
+   at System.Data.Entity.Internal.InternalContext.Initialize()
+   at System.Data.Entity.Internal.InternalContext.GetEntitySetAndBaseTypeForType(Type entityType)
+   at System.Data.Entity.Internal.Linq.InternalSet`1.Initialize()
+   at System.Data.Entity.Internal.Linq.InternalSet`1.get_InternalContext()
+   at System.Data.Entity.Infrastructure.DbQuery`1.System.Linq.IQueryable.get_Provider()
+   at System.Linq.Queryable.Select[TSource,TResult](IQueryable`1 source, Expression`1 selector)
+   at OddsGrabber.Program.IngestBetfairMarkets() in c:\Users\***REMOVED***\Dropbox\Uni\Project\MBHelper\OddsGrabber\Program.cs:line 76
+   at OddsGrabber.Program.Main() in c:\Users\***REMOVED***\Dropbox\Uni\Project\MBHelper\OddsGrabber\Program.cs:line 41
+2013-03-29 18:50:38.1363 INFO Completed. Time elapsed: 00:00:03.7281724

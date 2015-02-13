@@ -1,0 +1,32 @@
+2013-04-18 20:26:00.7377 DEBUG GetMarketReq - FAILED: Response.Header.ErrorCode = EXCEEDED_THROTTLE
+2013-04-18 20:37:15.4800 DEBUG GetMarketReq - FAILED: Response.Header.ErrorCode = EXCEEDED_THROTTLE
+2013-04-18 20:54:30.5073 DEBUG GetMarketReq - FAILED: Response.Header.ErrorCode = EXCEEDED_THROTTLE
+2013-04-18 21:18:09.0316 DEBUG GetMarketReq - FAILED: Response.Header.ErrorCode = EXCEEDED_THROTTLE
+2013-04-18 21:42:42.5231 INFO 9 Expired markets removed from database
+2013-04-18 21:42:42.5231 INFO 263 New markets added to database
+2013-04-18 21:42:42.5231 INFO 12 In-play markets skipped
+2013-04-18 21:42:42.5231 INFO Completed. Time elapsed: 00:53:23.1118931
+2013-04-18 22:43:31.2169 ERROR An item with the same key has already been added.
+2013-04-18 22:43:31.2299 TRACE    at System.ThrowHelper.ThrowArgumentException(ExceptionResource resource)
+   at System.Collections.Generic.Dictionary`2.Insert(TKey key, TValue value, Boolean add)
+   at System.Collections.Generic.Dictionary`2.Add(TKey key, TValue value)
+   at MBHelper.Models.Market.LoadMarket(GetMarketResp& marketResp, Dictionary`2 abbrev) in c:\Users\***REMOVED***\Dropbox\Uni\Project\MBHelper\MBHelper\Models\Market.cs:line 74
+   at OddsGrabber.Program.IngestBetfairMarkets() in c:\Users\***REMOVED***\Dropbox\Uni\Project\MBHelper\OddsGrabber\Program.cs:line 163
+   at OddsGrabber.Program.Main() in c:\Users\***REMOVED***\Dropbox\Uni\Project\MBHelper\OddsGrabber\Program.cs:line 43
+2013-04-18 22:43:31.2299 INFO Completed. Time elapsed: 00:00:07.6513713
+2013-04-18 22:45:25.5305 ERROR An item with the same key has already been added.
+2013-04-18 22:45:25.5305 TRACE    at System.ThrowHelper.ThrowArgumentException(ExceptionResource resource)
+   at System.Collections.Generic.Dictionary`2.Insert(TKey key, TValue value, Boolean add)
+   at System.Collections.Generic.Dictionary`2.Add(TKey key, TValue value)
+   at MBHelper.Models.Market.LoadMarket(GetMarketResp& marketResp, Dictionary`2 abbrev) in c:\Users\***REMOVED***\Dropbox\Uni\Project\MBHelper\MBHelper\Models\Market.cs:line 74
+   at OddsGrabber.Program.IngestBetfairMarkets() in c:\Users\***REMOVED***\Dropbox\Uni\Project\MBHelper\OddsGrabber\Program.cs:line 163
+   at OddsGrabber.Program.Main() in c:\Users\***REMOVED***\Dropbox\Uni\Project\MBHelper\OddsGrabber\Program.cs:line 43
+2013-04-18 22:45:25.5465 INFO Completed. Time elapsed: 00:01:11.0225353
+2013-04-18 22:45:54.0651 ERROR An item with the same key has already been added.
+2013-04-18 22:45:54.0791 TRACE    at System.ThrowHelper.ThrowArgumentException(ExceptionResource resource)
+   at System.Collections.Generic.Dictionary`2.Insert(TKey key, TValue value, Boolean add)
+   at System.Collections.Generic.Dictionary`2.Add(TKey key, TValue value)
+   at MBHelper.Models.Market.LoadMarket(GetMarketResp& marketResp, Dictionary`2 abbrev) in c:\Users\***REMOVED***\Dropbox\Uni\Project\MBHelper\MBHelper\Models\Market.cs:line 74
+   at OddsGrabber.Program.IngestBetfairMarkets() in c:\Users\***REMOVED***\Dropbox\Uni\Project\MBHelper\OddsGrabber\Program.cs:line 163
+   at OddsGrabber.Program.Main() in c:\Users\***REMOVED***\Dropbox\Uni\Project\MBHelper\OddsGrabber\Program.cs:line 43
+2013-04-18 22:45:54.0791 INFO Completed. Time elapsed: 00:00:14.2972771

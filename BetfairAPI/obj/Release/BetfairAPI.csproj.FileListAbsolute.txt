@@ -1,0 +1,9 @@
+C:\Users\***REMOVED***\Dropbox\Uni\Project\MBHelper\BetfairAPI\bin\Release\BetfairAPI.dll.config
+C:\Users\***REMOVED***\Dropbox\Uni\Project\MBHelper\BetfairAPI\bin\Release\BetfairAPI.dll
+C:\Users\***REMOVED***\Dropbox\Uni\Project\MBHelper\BetfairAPI\bin\Release\BetfairAPI.XmlSerializers.dll
+C:\Users\***REMOVED***\Dropbox\Uni\Project\MBHelper\BetfairAPI\bin\Release\BetfairAPI.pdb
+C:\Users\***REMOVED***\Dropbox\Uni\Project\MBHelper\BetfairAPI\obj\Release\BetfairAPI.csprojResolveAssemblyReference.cache
+C:\Users\***REMOVED***\Dropbox\Uni\Project\MBHelper\BetfairAPI\obj\Release\BetfairAPI.dll
+C:\Users\***REMOVED***\Dropbox\Uni\Project\MBHelper\BetfairAPI\obj\Release\BetfairAPI.pdb
+C:\Users\***REMOVED***\Dropbox\Uni\Project\MBHelper\BetfairAPI\obj\Release\BetfairAPI.XmlSerializers.dll
+C:\Users\***REMOVED***\Dropbox\Uni\Project\MBHelper\BetfairAPI\bin\Release\Abbreviations.txt

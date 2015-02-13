@@ -1,0 +1,59 @@
+﻿<!DOCTYPE html>
+<html lang="en">
+    <head>
+        <meta charset="utf-8" />
+        <title>@ViewBag.Title - OddsFinder</title>
+        <link href="~/favicon.ico" rel="shortcut icon" type="image/x-icon" />
+        <meta name="viewport" content="width=device-width" />
+        @Styles.Render("~/Content/css")
+        @Styles.Render("~/Content/DataTables-1.9.4/media/css/bundle")
+        @Styles.Render("~/Content/bootstrap/css/bundle")
+        @Styles.Render("~/Content/themes/custom-theme/css")                                
+        <script src="//ajax.googleapis.com/ajax/libs/jquery/1.9.1/jquery.min.js" ></script>
+        <script src="//ajax.googleapis.com/ajax/libs/jqueryui/1.10.3/jquery-ui.min.js" ></script>
+        @Scripts.Render("~/bundles/bootstrap")
+        @Scripts.Render("~/bundles/myscripts")
+       
+    </head>
+    <body>
+        <header>
+            <div class="content-wrapper">
+                <div class="float-left">
+                    <p class="site-title">@Html.ActionLink("OddsFinder", "Index", "Home")</p>
+                </div>
+                <div class="float-right">
+                        @*Date?*@
+                    <nav>
+                        <ul id="menu">
+                            <li>@Html.ActionLink("Home", "Index", "Home")</li>
+                            <li>@Html.ActionLink("About", "About", "Home")</li>
+                            <li>@Html.ActionLink("Contact", "Contact", "Home")</li>
+                        </ul>
+                    </nav>
+                </div>
+            </div>
+        </header>
+        <div id="body">
+            @RenderSection("featured", required: false)
+            <section class="content-wrapper main-content clear-fix">
+                @RenderBody()
+            </section>
+        </div>
+        <footer>
+            <div class="content-wrapper">
+                <div class="float-left">
+                    <p>&copy; @DateTime.Now.Year - Elliot Brooker</p>
+                    <p>
+                        While every effort has been made to ensure the information displayed is correct and up to date,
+                        we are not liable for any financial losses incurred due to user error. 
+                        Always verify the odds with the bookmaker and exchange before placing a bet.
+                    </p>
+                </div>
+                
+                <div style="text-align: center"></div>
+            </div>
+        </footer>
+        
+        @RenderSection("scripts", required: false)
+    </body>
+</html>
