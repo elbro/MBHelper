@@ -10,7 +10,7 @@ This project comes into play by alleviating the need to manually search for thes
 
 The odds grabbing service can be extended to work with any bookmaker's odds feed once the feed has been discovered (these are not usually advertised publicly).
 
-<h2>Operation</H3>
+<b>Operation</b>
 - Ingest markets using Betfair as a base by running the MarketGrabber service (1 - 2 times daily)
 - AutoUpdater service continually scrapes available feeds and matches odds with the correct markets.
 - MBHelper Web app displays most profitable arbitrage bets and allows user to filter markets as desired.
