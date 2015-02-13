@@ -1,6 +1,0 @@
-2013-04-16 15:08:01.2654 ERROR Object reference not set to an instance of an object.
-2013-04-16 15:08:01.2754 TRACE    at MBHelper.Models.Market.LoadMarket(GetMarketResp& marketResp) in c:\Users\***REMOVED***\Dropbox\Uni\Project\MBHelper\MBHelper\Models\Market.cs:line 42
-   at OddsGrabber.Program.IngestBetfairMarkets() in c:\Users\***REMOVED***\Dropbox\Uni\Project\MBHelper\OddsGrabber\Program.cs:line 146
-   at OddsGrabber.Program.Main() in c:\Users\***REMOVED***\Dropbox\Uni\Project\MBHelper\OddsGrabber\Program.cs:line 41
-2013-04-16 15:08:01.2754 INFO Completed. Time elapsed: 00:00:15.7942545
-2013-04-16 16:28:07.9573 DEBUG GetMarketReq - FAILED: Response.Header.ErrorCode = EXCEEDED_THROTTLE
