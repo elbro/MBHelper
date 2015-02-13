@@ -1,3 +1,8 @@
 *.suo
+*.user
 *.vsp
 *.psess
+_ReSharper.*/
+bin/
+obj/
+Debug/
