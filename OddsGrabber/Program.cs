@@ -35,6 +35,7 @@ namespace OddsGrabber
             Betfair = new Betfair();
             Betfair.MessageRedirect(UserMsg);
             LoggedOn = Betfair.Login(uuu, ppp);
+            
             Console.WriteLine(LoggedOn ? "{0} - Connected to Betfair" : "{0} - Failed to login to Betfair", DateTime.Now);
 
             try

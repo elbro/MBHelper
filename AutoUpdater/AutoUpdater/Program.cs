@@ -19,8 +19,8 @@ namespace AutoUpdater
             {
                 try
                 {
-                    const string uuu = "***REMOVED***";
-                    const string ppp = "***REMOVED***";
+                    const string uuu = "";
+                    const string ppp = "";
 
                     Betfair = new Betfair();
                     Betfair.MessageRedirect(UserMsg);
