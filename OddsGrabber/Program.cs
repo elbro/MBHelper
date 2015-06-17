@@ -29,9 +29,8 @@ namespace OddsGrabber
                         
             var stopwatch = Stopwatch.StartNew();
 
-            //TODO: Encrypt
-            var uuu = "***REMOVED***";  
-            var ppp = "***REMOVED***";
+            var uuu = "username";  
+            var ppp = "password";
 
             Betfair = new Betfair();
             Betfair.MessageRedirect(UserMsg);
